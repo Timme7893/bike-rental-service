@@ -1,0 +1,14 @@
+{
+    "name": "default",
+    "type": "postgres",
+    "url": "",
+    "synchronize": true,
+    "logging": true,
+    "entities": ["src/entity/*.*"],
+    "ssl": true,
+    "extra": {
+      "ssl": {
+        "rejectUnauthorized": false
+      }
+    }
+  }
